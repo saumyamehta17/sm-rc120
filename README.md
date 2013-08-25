@@ -31,6 +31,3 @@ run server
 ```
 rails s
 ```
-
-
-		
