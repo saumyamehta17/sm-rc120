@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @projecct.name %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%= @projecct.owner %>
+</p>
+
+<p>
+  <b>Released date:</b>
+  <%= @projecct.released_date %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @projecct.Description %>
+</p>
+
+
+<%= link_to 'Edit', edit_projecct_path(@projecct) %> |
+<%= link_to 'Back', projeccts_path %>
