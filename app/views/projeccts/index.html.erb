@@ -1,4 +1,8 @@
-<h1>Listing projeccts</h1>
+<%= form_tag projeccts_path , :method => :get do %>
+  <%= label_tag :search %>
+  <%= text_field_tag  :search %>
+  <%= submit_tag 'search' %>
+<% end %>
 
 <table>
   <tr>

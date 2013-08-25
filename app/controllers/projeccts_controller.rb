@@ -2,7 +2,7 @@ class ProjecctsController < ApplicationController
   # GET /projeccts
   # GET /projeccts.json
   def index
-    @projeccts = Projecct.all
+    @projeccts = Projecct.search(params[:search])
 
     respond_to do |format|
       format.html # index.html.erb
